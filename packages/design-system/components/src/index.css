@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-olive: #606c38;
+  --color-forest: #283618;
+  --color-cream: #fefae0;
+  --color-apricot: #dda15e;
+  --color-orange: #bc6c25;
+
+  --color-primary: var(--color-olive);
+  --color-secondary: var(--color-forest);
+
+  --spacing: 12px;
+}
