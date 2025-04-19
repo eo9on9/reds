@@ -1,5 +1,13 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'Pretendard Variable';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url('./assets/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
 @theme {
   --color-olive: #606c38;
   --color-forest: #283618;
@@ -11,4 +19,10 @@
   --color-secondary: var(--color-forest);
 
   --spacing: 12px;
+
+  --font-pretendard: 'Pretendard Variable', sans-serif;
+}
+
+.typo-h1 {
+  @apply font-pretendard font-bold text-2xl;
 }
