@@ -65,6 +65,10 @@ SSR을 위한 별도 설정이 필요?
 
 <br><br>
 
+## TailwindCSS Layers
+
+<br><br>
+
 ## Variable fonts
 
 참조 https://web.dev/articles/variable-fonts?hl=ko
