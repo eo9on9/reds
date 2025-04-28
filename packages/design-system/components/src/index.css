@@ -23,6 +23,8 @@
   --font-pretendard: 'Pretendard Variable', sans-serif;
 }
 
-.typo-h1 {
-  @apply font-pretendard font-bold text-2xl;
+@layer components {
+  .typo-h1 {
+    @apply font-pretendard font-bold text-2xl;
+  }
 }
